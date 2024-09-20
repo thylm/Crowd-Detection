@@ -36,4 +36,13 @@ $ python3 detect_main.py --weights weights/crowd_yolov5m.pt --source video1.mp4 
   
 ## Output
 
+**Head Detection**
+![head](https://github.com/thylm/crowd-detection/blob/main/results/test.jpg)
+
+
+**Crowd Detection Alert Images**
+![crowd](https://github.com/thylm/crowd-detection/blob/main/results/alert_127.jpg)
+
+![crowd](https://github.com/thylm/crowd-detection/blob/main/results/alert_90.jpg)
+
   
