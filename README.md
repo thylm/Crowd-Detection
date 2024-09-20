@@ -30,7 +30,7 @@ All the necessary libraries can be referred to using the `requirements.txt` file
 ## Run
 
 ```bash
-$ python3 detect_main.py --weights weights/crowd_yolov5m.pt --source video1.mp4 --view-img --n_people 2 --n_seconds 1
+$ python3 detect_main.py --weights crowd_yolov5m.pt --source video1.mp4 --view-img --n_people 2 --n_seconds 1
 ```
 
 ## 👋 
