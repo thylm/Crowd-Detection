@@ -35,7 +35,11 @@ $ python3 detect_main.py --weights weights/crowd_yolov5m.pt --source video1.mp4 
 
 ## 👋 
 Download the trained **weight** and view the **output video** of the detection process [here](https://drive.google.com/drive/folders/124KqE8etgj5Ioo_PRLzSpF4BMdhHyRf5?usp=sharing)
-  
+
+## Itput
+- https://www.pexels.com/video/people-are-walking-up-an-escalator-with-a-person-19319544/
+- https://www.pexels.com/video/night-food-market-4512876/
+
 ## Output
 
 **Head Detection**
