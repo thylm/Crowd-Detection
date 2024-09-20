@@ -1,6 +1,6 @@
 # Crowd Detection and Alert System
 
-This project uses Yolov5 to detect people in a video stream and raises an alert when more than **n** people are detected continuously for over **m** seconds. It captures a screenshot when the condition is met and saves the alert images.
+This project uses Yolov5 to detect people in a video stream and raises an alert when more than **n** people are detected continuously for over **m** seconds. It show an alert message on the screen and captures a screenshot when the condition is met and saves the alert images.
 
 ## Features
 
