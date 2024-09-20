@@ -14,6 +14,16 @@ This project uses Yolov5 to detect people in a video stream and raises an alert 
 - **SORT Algorithm for Tracking**: The **SORT (Simple Online and Realtime Tracking)** algorithm is implemented for robust tracking of detected heads. This helps in maintaining consistency of detection across frames, especially in crowded environments.
 - Captures a screenshot when more than **n** people are detected for **m** continuous seconds.
 
+## The approach and steps
+1. Head Detection:
+- The system utilizes the YOLOv5 model to detect heads in each frame of the video stream.
+2. Tracking (SORT Algorithm):
+- Tracking is essential to ensure that the same head is consistently identified, even if it moves slightly or overlaps with other heads.
+- This ensures that the same head is not detected multiple times in subsequent frames, providing more accurate tracking over time.
+3. Thresholds for Alert:
+- The system counts the number of detected heads in a defined region of interest (ROI) per frame.
+- If the number of heads exceeds a certain threshold (e.g., more than 4 people) continuously for a set time (e.g., 2 minutes), the system triggers an alert.
+- An alert can be an action like saving a frame, pop-up a notification on screen.
 
 ## Requirements
 
@@ -42,13 +52,11 @@ Download the trained **weight** and view the **output video** of the detection p
 
 ## Output
 
-**Head Detection**
-![head](https://github.com/thylm/crowd-detection/blob/main/results/test.jpg)
-
-
 **Crowd Detection Alert Images**
 ![crowd](https://github.com/thylm/crowd-detection/blob/main/results/alert_127.jpg)
 
 ![crowd](https://github.com/thylm/crowd-detection/blob/main/results/alert_90.jpg)
 
+**Head Detection**
+![head](https://github.com/thylm/crowd-detection/blob/main/results/test.jpg)
   
