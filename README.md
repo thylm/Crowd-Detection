@@ -5,7 +5,7 @@ This project uses Yolov5 to detect people in a video stream and raises an alert 
 ## Features
 
 - **YOLOv5 for Crowd Detection**: Utilizes the powerful YOLOv5 model for real-time object detection.
-- **Custom Object Detection**: **Head detection instead of person (full-body) detection** is used to improve accuracy in scenarios where:
+- **Custom Object Detection**: **Head detection** instead of person (full-body) detection is used to improve accuracy in scenarios where:
   - The camera may not capture the entire body.
   - Crowded environments might obscure individuals, making full-body detection unreliable.
   
@@ -20,13 +20,10 @@ This project uses Yolov5 to detect people in a video stream and raises an alert 
 - Python 3.x
 - OpenCV
 - Numpy
+- PyTorch
 - YOLOv5
 
 All the necessary libraries can be referred to using the `requirements.txt` file provided in the repository.
-
-
-```bash
-pip install opencv-python numpy
 
 
 
@@ -37,11 +34,6 @@ $ python3 detect_main.py --weights weights/crowd_yolov5m.pt --source video1.mp4 
 ```
   
   
-## Test (Only Person Class)
-
-```bash
-python3 detect.py --weights crowdhuman_yolov5m.pt --source _test/ --view-img  --person
-```
+## Output
 
   
-
