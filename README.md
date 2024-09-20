@@ -32,7 +32,9 @@ All the necessary libraries can be referred to using the `requirements.txt` file
 ```bash
 $ python3 detect_main.py --weights weights/crowd_yolov5m.pt --source video1.mp4 --view-img --n_people 2 --n_seconds 1
 ```
-  
+
+## 👋 
+Download the trained **weight** and view the **output video** of the detection process [here](https://drive.google.com/drive/folders/124KqE8etgj5Ioo_PRLzSpF4BMdhHyRf5?usp=sharing)
   
 ## Output
 
